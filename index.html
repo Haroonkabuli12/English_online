@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learn English Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Learn English Online</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to My Website</h1>
+      <p>Learn English Online with us free and no ads</p>
+      <a href="#services" class="cta-button">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>I'm Haroon I'm making easy way to learn English with us </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service-box">
+        <h3>Grammar</h3>
+        <p>Words that are used to fill in time when speaking, such as “like” or “basically”, are called crutch words (and should best be avoided!) English is the official language of 67 countries. 90% of English text consists of just 1000 words. There are 24 different dialects of English in the US.</p>
+      </div>
+      <div class="service-box">
+        <h3>Phrases</h3>
+        <p>A phrase is a group of words that works together in a sentence but does not contain a subject or a verb. Often phrases are used for descriptions of people, things, or events. Examples: Filled with joy, the girl jumped up and down. The man with the red jacket is my father.</p>
+      </div>
+      <div class="service-box">
+        <h3>Verbs</h3>
+        <p>Verbs express action, describe an event, or establish a state of being. Verbs are influenced by tense, aspect, and mood. “Verb tense” refers to when the action occurred. The most common tenses are past, present, or future.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Have any questions? Feel free to reach out to us!</p>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Learn English Online. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+<style>
+    body {
+  background-color: #7865
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav .logo a {
+  color: #ffff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.hero {
+  background: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #324;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background: #324;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.service-box {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.service-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #324;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #324;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .services-container {
+    flex-direction: column;
+  }
+
+  .service-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+</style>
